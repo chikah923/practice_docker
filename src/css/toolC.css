@@ -1,0 +1,101 @@
+/*----------------------------------------------------------------------------------------------- */
+/*    */
+/*----------------------------------------------------------------------------------------------- */
+#containerC td{ vertical-align:top; }
+
+#containerC .floatL { float:left; }
+#containerC .floatR { float:right; }
+#containerC .clear  { clear:both; }
+
+#containerC .left  { text-align:left; }
+#containerC .right { text-align:right; }
+#containerC .center{ text-align:center; }
+
+#containerC .red  { color:#FF0000; }
+#containerC .blue { color:#0000FF; }
+#containerC .green{ color:#00FF00; }
+#containerC .white{ color:#FFFFFF; }
+#containerC .black{ color:#000000; }
+
+#containerC .font12 { font-size:12px; }
+#containerC .font14 { font-size:14px; }
+#containerC .font16 { font-size:16px; }
+#containerC .font18 { font-size:18px; }
+
+#containerC .bold { font-weight:bold; }
+#containerC .normal{ font-weight:normal; }
+
+#containerC .mt10 { margin-top:10px; }
+#containerC .ml10 { margin-left:10px; }
+#containerC .mr10 { margin-right:10px; }
+#containerC .mb10 { margin-bottom:10px; }
+
+#containerC .p5  { padding:5px; }
+#containerC .p10 { padding:10px; }
+
+#containerC .pt10 { padding-top:10px; }
+#containerC .pl10 { padding-left:10px; }
+#containerC .pl30 { padding-left:30px; }
+
+#containerC .borderALL { border:1px solid #D6D6D6; }
+
+
+/*----------------------------------------------------------------------------------------------- */
+/*tab*/
+/*----------------------------------------------------------------------------------------------- */
+#containerC .tabs{ overflow:hidden; display:table; margin:0; padding-left:0px; margin-left:0px; }
+
+#containerC .tabs li{
+	/*Tabの装飾*/
+	width:139px;
+	height:49px;
+	text-align:center;
+	border: 1px solid #909090;
+	border-right:none;
+	cursor: pointer;
+	vertical-align:middle;
+	display:table-cell;
+	color:#333333;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#ffffff;
+	}
+#containerC .tabs li:last-child { border-right: 1px solid #909090; }
+#containerC .wrap {
+	background:#5B9BD5;
+	padding:20px;
+	overflow: hidden;
+	}
+
+#containerC .contents{
+	/*Tabの内容を表示するエリアの装飾*/
+	background:#ffffff;
+	padding:10px 10px 10px 2px;
+	border-top: 1px dotted #bbbbbb;
+	}
+
+#containerC .tabs li.select{
+	/*アクティブタブの装飾*/
+	background-color:red;//#3568C1;
+	background-image:none;
+	color:#FFFFFF;
+	font-weight:bold;
+	/*border-top:2px solid #e94545;*/
+	}
+
+#containerC .contents .hide{ display:none; }
+
+/*----------------------------------------------------------------------------------------------- */
+/*checkbox*/
+/*----------------------------------------------------------------------------------------------- */
+#containerC input[type=checkbox] {
+	width:			16px;
+	height:			16px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);
+	color:red;
+}
+
+
+#containerC .column_title{ width:660px;height:30px; font-size:16px; font-weight:bold; }

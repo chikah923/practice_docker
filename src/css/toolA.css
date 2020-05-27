@@ -1,0 +1,91 @@
+/*----------------------------------------------------------------------------------------------- */
+/*    */
+/*----------------------------------------------------------------------------------------------- */
+#container td{ vertical-align:top; }
+
+#container .floatL { float:left; }
+#container .floatR { float:right; }
+#container .clear  { clear:both; }
+
+#container .left  { text-align:left; }
+#container .right { text-align:right; }
+#container .center{ text-align:center; }
+
+#container .red  { color:#FF0000; }
+#container .blue { color:#0000FF; }
+#container .green{ color:#00FF00; }
+#container .white{ color:#FFFFFF; }
+#container .black{ color:#000000; }
+
+#container .font12 { font-size:12px; }
+#container .font14 { font-size:14px; }
+#container .font16 { font-size:16px; }
+#container .font18 { font-size:18px; }
+
+#container .bold { font-weight:bold; }
+#container .normal{ font-weight:normal; }
+
+#container .mt10 { margin-top:10px; }
+#container .ml10 { margin-left:10px; }
+#container .mr10 { margin-right:10px; }
+#container .mb10 { margin-bottom:10px; }
+
+#container .p5  { padding:5px; }
+#container .p10 { padding:10px; }
+
+#container .pt10 { padding-top:10px; }
+#container .pl10 { padding-left:10px; }
+#container .pl30 { padding-left:30px; }
+
+#container .borderALL { border:1px solid #D6D6D6; }
+
+
+/*----------------------------------------------------------------------------------------------- */
+/*tab*/
+/*----------------------------------------------------------------------------------------------- */
+#container .tabsA{ overflow:hidden; display:table; margin:0; padding-left:0px; margin-left:0px; }
+
+#container .tabsA li{
+	/*Tabの装飾*/
+	width:139px;
+	height:49px;
+	text-align:center;
+	border: 1px solid #909090;
+	border-right:none;
+	cursor: pointer;
+	vertical-align:middle;
+	display:table-cell;
+	color:#333333;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#ffffff;
+	}
+#container .tabsA li:last-child { border-right: 1px solid #909090; }
+#container .wrap {
+	background:#5B9BD5;
+	padding:20px;
+	overflow: hidden;
+	}
+
+#container .contentsA{
+	/*Tabの内容を表示するエリアの装飾*/
+	background:#ffffff;
+	padding:10px 10px 10px 2px;
+	border-top: 1px dotted #bbbbbb;
+	}
+
+#container .tabsA li.select{
+	/*アクティブタブの装飾*/
+	background-color:red;//#3568C1;
+	background-image:none;
+	color:#FFFFFF;
+	font-weight:bold;
+	/*border-top:2px solid #e94545;*/
+	}
+
+#container .contentsA .hide{ display:none; }
+
+
+//#containerC .column_title{ width:660px;height:30px; font-size:16px; font-weight:bold; }
+
+.ui-dialog { z-index: 2000 !important ;}

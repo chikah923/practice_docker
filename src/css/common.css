@@ -1,0 +1,116 @@
+div.vtitle {
+	background-color: white;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: solid 1px black;
+}
+body {
+	padding-top: 70px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container .text-muted {
+  margin: 10px 0;
+}
+html {
+  position: relative;
+  min-height: 100%;
+	overflow-y: scroll;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+.outputTable, .searchBox {
+	//background-color:#dddddd;
+	border-color:#dddddd !important;
+}
+.outputTable td{
+	padding:5px;
+	background:white;
+}
+.outputTable .title{
+	background:#FF9999;
+	color:white;
+	font-size:1.4em;
+	font-weight:bold;
+}
+#searchBox {
+
+}
+#searchBox table{
+  //  border-collapse: collapse;
+    
+    border:1px solid #dddddd;
+    border-collapse: collapse;
+}
+#searchBox td{
+	font-size:18px;
+    border:1px solid #dddddd;
+	background:white;
+}
+#searchBox td a:hover{
+	color:white;
+	background:#FF9999;
+}
+#searchBox input {
+	width:100%;
+	margin-bottom:10px;
+}
+.chkbox input[type=checkbox] {
+	margin:5px 5px;
+	width:			18px;
+	height:			18px;
+	-moz-transform:		scale(1.2);
+	-webkit-transform:	scale(1.2);
+	transform:		scale(1.2);
+}
+
+.info th, .pink{
+	color:white;
+	background:#ff9999 !important;
+	font-weight:bold;
+}
+
+.panel-heading{
+	color:black !important;
+	background:white !important;
+	border:1px solid red;
+	border-bottom:none;
+	border-color:red !important;
+}
+.panel-body{
+	border:1px solid red;
+}
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
